@@ -25,7 +25,7 @@ jobs:
         run: terraform fmt -check -recursive
 
       - name: 🔍 TFLint (policy & style)
-        uses: terraform-linters/tflint-action@v1.42.0
+        uses: terraform-linters/tflint-action@v1	
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           working_directory: .infra/terraform
