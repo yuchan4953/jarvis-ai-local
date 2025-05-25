@@ -1,0 +1,4 @@
+model_kpi:
+  accuracy: 0.85
+  latency: 2        # seconds
+  cost_usd_per_token: 0.0004

@@ -1,0 +1,20 @@
+{
+  "type": "report",
+  "department": "AUDIT",
+  "timestamp": "2025-05-23T16:25:36.727928+00:00",
+  "budget_usage_pct": {
+    "gpu": 42.0,
+    "openai": 38.0
+  },
+  "kpi_thresholds": {
+    "accuracy": 0.85,
+    "latency": 2,
+    "cost_usd_per_token": 0.0004
+  },
+  "security_phase": [
+    "SAST",
+    "SBOM",
+    "SecretsScan"
+  ],
+  "lab_quota_hrs": 20
+}

@@ -1,0 +1,11 @@
+{
+  "phase1": [
+    "SAST",
+    "SBOM",
+    "SecretsScan"
+  ],
+  "phase2": [
+    "ISO27001Gap",
+    "GDPRDataMap"
+  ]
+}
